@@ -2,6 +2,15 @@
 This is a summary of primary repositories.
 
 ## Machine Learning
+### Design Service USer Prediction
+#### https://github.com/feifangu/Design-Service
+Part 1: EDA - Load the dataset and take a quick look
+Part 2: Data Cleaning - Replace na with unknown for categorical variables and with zero for numerical variables
+Part 3: Data Visualization - Visualize the X variables and y variable and notice the imbalancement of y
+Part 4: Feature Engineering - Split dataset into training (to train the model) and test sets (to test the model); one hot encoding on categorical variables; Upsample with SMOTE and downsample with random sampling the datasets to get prepared for different models
+Part 5: Modeling - Compare different classification models on their performance (f1, ROC_AUC, accuracy, training time); pick the best one and do grid search with cross validation to tune hyper parameters to optimize
+Part 6: Summary - Business strategy recommendation
+
 ### Click-through Prediction
 #### https://github.com/feifangu/click-prediction
 This project involves predicting clicks for on-line advertisements. The training data consists of data for 9 days from October 21, 2014 to October 29, 2014. Our goal is to predict the probability of a click. The performance criterion used to evaluate the performance of prediction is log-loss. I operated various classification algorithms to pursue a lower log-loss including LightGBM and XGBoost.
