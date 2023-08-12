@@ -11,6 +11,10 @@ Part 4: Feature Engineering - Split dataset into training (to train the model) a
 Part 5: Modeling - Compare different classification models on their performance (f1, ROC_AUC, accuracy, training time); pick the best one and do grid search with cross validation to tune hyper parameters to optimize <br>
 Part 6: Summary - Business strategy recommendation <br>
 
+### Learning Notes of Approaching (Almost) Any Machine Learning Problem
+#### https://github.com/feifangu/AAAMLP-Notes
+Documenting down the code and key takeaways of learning the book.
+
 ### Click-through Prediction
 #### https://github.com/feifangu/click-prediction
 This project involves predicting clicks for on-line advertisements. The training data consists of data for 9 days from October 21, 2014 to October 29, 2014. Our goal is to predict the probability of a click. The performance criterion used to evaluate the performance of prediction is log-loss. I operated various classification algorithms to pursue a lower log-loss including LightGBM and XGBoost.
