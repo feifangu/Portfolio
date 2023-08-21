@@ -2,7 +2,7 @@
 This is a summary of primary repositories.
 
 ## Machine Learning
-### Design Service USer Prediction
+### Design Service User Prediction
 #### https://github.com/feifangu/Design-Service
 Part 1: EDA - Load the dataset and take a quick look <br>
 Part 2: Data Cleaning - Replace na with unknown for categorical variables and with zero for numerical variables <br>
